@@ -1,0 +1,100 @@
+﻿*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.BgImage {
+    background-image: url('images/bgimage.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    width:100%;
+}
+.LoginBox{
+    min-height:100px;
+    min-width:100px;
+    padding:30px;
+    border: 4px solid white;
+    background-color:rgb(255 255 255 / 0.90);
+    border-radius:20px;
+    margin-top:20vh;
+}
+.ButtonStyle{
+    background-color:transparent;
+    border:1px solid;
+    text-align:center;
+    width:49%;
+    font-size:18px;
+    line-height:40px;
+}
+.ButtonStyle:hover{
+    color:#4cff00;
+}
+.active{
+    background-color:navy;
+    color:white;
+    border-color:white;
+}
+
+.lablestyle {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.inputstyle{
+    width:70%;
+    height:40px;
+    font-size:20px;
+    margin-left:10px;
+    margin-top:20px;
+}
+.LoginUserButton {
+    width: 40%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: navy;
+    color: white;
+    border: none;
+}
+.m-10{
+    margin: 10px; 
+}
+.box{
+    height:100%;
+    width:100%;
+}
+.p-2{
+    padding:20px;
+}
+.display{
+    display:inline-block;
+    background-color:antiquewhite;
+}
+.alignright{
+    text-align:right;
+   
+}
+.mt-2{
+    margin: 20px 0;
+}
+.mtb-2{
+    
+    margin-bottom: 20px;
+}
+.p-2{
+    padding:20px 0;
+}
+.p-1{
+    padding:20px;
+}
+.width{
+    width:100%;
+}
+.ml-10{
+    margin-left:10px;
+}
+input, textarea{
+    color:black;
+}
